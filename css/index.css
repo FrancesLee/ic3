@@ -1,0 +1,299 @@
+*{
+	font-family: Microsoft YaHei;
+}
+footer{
+	padding-top: 70px;
+	background-color: #eee;
+	text-align: center;
+	color: grey;
+}
+header{
+	font-size: 16px;
+}
+section{
+	height: 600px;
+}
+#brand{
+	font-size: 35px;
+	color: rgb(255,48,2);
+}
+#downA:hover{
+	background-color: #fff;
+}
+#downB:hover{
+	background-color: #fff;
+}
+#down .footerLeft{
+	display: inline-block;
+	text-align: left;
+}
+#down .footerList{
+	text-align: left;
+	display: inline-block;
+	line-height: 2.5em;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#down .footerList a{
+	color: grey;
+}
+#down .footerList a:hover{
+	color: rgb(255,48,2);
+	text-decoration: none;
+}
+#down .footerLeft .littleIcon{
+	height: 22px;
+	width: 22px;
+	margin: 10px;
+}
+.lesson{
+	background-color: #fff;
+}
+#navigation{
+	height: 100px;
+	padding-top: 25px;
+	background: #fff;
+}
+#navigation a:hover{
+	color: rgb(255,48,2);
+}
+#navigation .dropdown-menu a:hover{
+	color: grey;
+}
+#news{
+	margin-top: 80px;
+	padding-top: 160px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#news h1{
+	color: #555555;
+	font-size: 80px;
+	padding-top: 12px;
+}
+#news h4{
+	padding-top: 240px;
+	color: #555555;
+}
+#newsT{
+	
+	text-align: center;
+	background-color: rgb(255,48,2);
+	color: #ffffff;
+	height: 380px;
+}
+#newsT .col-md-4{
+	padding-top: 55px;
+}
+#newsT p{
+	padding-top: 10px;
+}
+#newsT h1{
+	font-size: 50px;
+}
+#newsT .tuandui{
+	border-radius: 82px;
+}
+#signUp{
+	padding-top: 20px;
+	text-align: center;
+	color: grey;
+}
+#signUp .left-part{
+	display:inline-block;
+	padding-right: 90px;
+	text-align: center;
+}
+#signUp .left-part img{
+	width: 320px;
+	height: 420px;
+}
+#signUp .left-part button{
+	font-size: 18px;
+}
+#signUp .right-part{
+	display:inline-block;
+	text-align: left;
+}
+#signUp .right-part p{
+	width: 395px;
+	text-indent: 2em;
+}
+#signUp .right-part span{
+	padding-right: 10px;
+}
+#setup{
+
+}
+#training img{
+	height: 600px;
+}
+#newsTh{
+	padding-top: 40px;
+}
+#newsTh .jumbotron .lesson{
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+.suojin{
+	text-indent: 2em;
+}
+.tuandui{
+	width: 164px;
+	height: 164px;
+	margin-bottom: 5px;
+}
+.tuanduiTu div{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+
+}
+.recT{
+	width: 300px;
+	height: 164px;
+}
+
+
+
+/*/////////////////////test*/
+@media (max-width: 768px) { 
+  #searchBox{
+	display: none;
+	}
+	#down .footerList{
+		display: none;
+	}
+	#banben{
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#brand{
+		font-size: 1.5em;
+	}
+	#navigation{
+		height: 48px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	#bs-example-navbar-collapse-1{
+		background-color: #fff;
+		width: 120px;
+		float: right;
+		border: 0px;
+		border-radius: 4px;
+	}
+	#bs-example-navbar-collapse-1 .nav li a:hover{
+		border-right: 2px solid rgb(255,48,2);
+	}
+	#bs-example-navbar-collapse-1 .dropdown-menu{
+		display: none;
+	}
+	#down .footerLeft{
+	text-align: center;
+	}
+	#down .footerLeft .littleIcon{
+	height: 18px;
+	width: 18px;
+	}
+	#news{
+		height: 400px;
+	}
+	#news h1{
+		font-size: 50px;
+		padding-top: 35px;
+	}
+	#news h4{
+		padding-top: 10px;
+	}
+	#newsT{
+		height: 1100px;
+	}
+	
+	.recT{
+	width: 190px;
+	height: 114px;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+  #searchBox{
+	display: none;
+	}
+	#newsT{
+		height: 1000px;
+	}
+	
+}
+/*/////////////////////////////////////background*/
+@media (max-width: 768px) { 
+  .background{
+  	background: url(../img/computer.jpg) no-repeat center 0;
+  	background-size: 600px 250px;
+	}
+	.h{
+		display: none;
+	}
+	#newsTh{
+		height: 800px;
+	}
+	#daniu h1{
+		font-size: 23px;
+		
+	}
+	#daniu h2{
+		font-size: 13px;
+	}
+	#signUp{
+		height: 400px;
+		padding-top: 0px;
+	}
+	#signUp h3{
+		font-size: 18px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#signUp .right-part p{
+		display: none;
+	}
+	#signUp .right-part span{
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+  
+  .background{
+  	background: url(../img/computer.jpg) no-repeat center 0;
+  	background-size: 1300px 600px;
+	}
+	.h{
+		display: none;
+	}
+	#newsTh{
+		height: 700px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+ 
+  .background{
+  	background: url(../img/computer.jpg) no-repeat center 0;
+  	background-size: 1300px 600px;
+	}
+	.h{
+		display: block;
+	}
+}
+@media (min-width: 1200px) {
+ 
+	.background{
+  	background: url(../img/computer.jpg) no-repeat center 0;
+  	background-size: 1300px 600px;
+	}
+	.h{
+		display: block;
+	}
+}
